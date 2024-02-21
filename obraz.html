@@ -1,19 +1,20 @@
 <html>
     <head>
         <title>Список дел</title>
-        <link type="image/x-icon" href=""></link>
+        <link rel="shortcut icon" href="favin.png" type="image/png">
+        <link rel = "stylesheet" href="style.css">
     </head>
-    <body>
+    <header>
         <h1 text-align="center">Список дел</h1>
-        <form>
-            <input type="text"><input type="submit" value="Отправить"><input type="reset" value="Очистить всё">
-        </form>
+        <input type="text" id="myInput" placeholder="Введите новое дело..."><span onclick="newElement()" class="addBtn">Добавить</span><span onclick="newElement1()" class="deleteBtn">Очистить всё</span>
+    </header>
+    <body>     
         <ol>
-            <li><input type="checkbox">Захватить северную корею</li>
-            <li><input type="checkbox">Сбросить атомку на Средиземное море</li>
-            <li><input type="checkbox">Сразиться с Посейдоном за сокровища Атлантиды</li>
+            <li class="checked">Захватить северную корею</li>
+            <li>Сбросить атомку на Средиземное море</li>
+            <li>Сразиться с Посейдоном за сокровища Атлантиды</li>
         </ol>
         <hr>
-        <h2>Copyright©</h2>
+        <h2 text-align="center">Copyright©</h2>
     </body>
 </html>
